@@ -12,7 +12,7 @@ import lombok.Setter;
 @Entity
 @Getter @Setter
 public class PagamentoComBoleto extends Pagamento {
-	public PagamentoComBoleto(Integer id2, EstadoPagamento estado2, Pedido pedido2) {
+	public PagamentoComBoleto(Integer id2, EstadoPagamento estado2, Pedido pedido2, Date date, Object object) {
 		super(id2, estado2, pedido2);
 		// TODO Auto-generated constructor stub
 	}
